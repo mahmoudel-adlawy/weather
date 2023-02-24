@@ -1,0 +1,116 @@
+body{
+    background-color: #1E202B;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 68px;
+    height: 38px;
+}
+ h1 {
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+.nav-link{
+    margin-right: 50px;
+}
+.navbar-nav .nav-item .nav-link{
+    color:white;
+    transition:color   0.2s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    border: solid 3px #009AD8;
+    border-radius: 30px;
+    padding: 3px 20px;
+    color: #009AD8;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    border: solid 3px #009AD8;
+    border-radius: 30px;
+    padding: 3px 20px;
+    color: #009AD8;
+}
+
+header{
+    
+    min-height: 350px;
+    margin: 110px 0px 0px 0px;
+    background-image: url(../imges/banner.png);
+    background-position: 100% 100%; 
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+}
+.s-erch{
+    margin: 100px 0px;
+    position: relative;
+
+}
+.search{
+    padding: 20px 50px 20px 20px ;
+    border-radius: 30px;
+    background-color: #1E202B;
+    color: white;
+}
+.sumbit{
+    position: absolute;
+    top:6%;
+    right: 1.1%;
+    padding: 17px 43px;
+    border-radius: 30px;
+    
+}
+
+.cards{
+
+    
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    
+}
+.cards-1{
+    margin: 0;
+    padding: 0;
+}
+.num{
+    font-size: 60px;
+    font-family: cursive;
+}
+.contant-1{
+    background-color: #262936;
+}
+.today-1{
+    background-color: #222530;
+    color: white;
+    padding: 5px;
+}
+.degree-1{
+    
+    font-size: 40px;
+    font-family: cursive;
+}
+
+
+
+
+.today ,.today-2{
+    background-color: #2D303D;
+    color: white;
+    padding: 5px;
+}
+.contant , .contant-2{
+    background-color: #323544;
+    color: white;
+    padding: 5px;
+    height: 80%;
+}
